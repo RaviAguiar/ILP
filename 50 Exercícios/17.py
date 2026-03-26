@@ -1,2 +1,2 @@
 preço = 48.90
-print("O preço do produto é R$ {:.2f}".format(preço))
+print(f'O preço do produto é R$:{preço:.2f}')
