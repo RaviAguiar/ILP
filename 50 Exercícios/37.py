@@ -1,2 +1,2 @@
-n1 = 6.7
+n1 = int(input('Digite um número: '))
 print (n1**2)

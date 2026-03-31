@@ -1,2 +1,2 @@
-n1 = 6.7
-print(6.7**3)
+n1 = int(input('Digite um número: '))
+print(n1**3)
