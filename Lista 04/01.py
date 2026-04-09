@@ -4,4 +4,4 @@ C = 4
 D = True
 E = False
 
-A == C
+print(A == C)
