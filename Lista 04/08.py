@@ -3,5 +3,4 @@ B = 10
 C = 4
 D = True
 E = False
-
-print(not D)
+print(not E and A + 1 < B or D)
