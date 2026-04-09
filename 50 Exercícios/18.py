@@ -1,2 +1,0 @@
-ativo = True
-print(ativo)
