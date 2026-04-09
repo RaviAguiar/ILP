@@ -6,3 +6,4 @@ E = False
 F = 0
 G = -3
 I = [1, 2, 3, 4, 5]
+print(A in I and B not in I)
