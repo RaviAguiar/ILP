@@ -4,7 +4,7 @@ while n < 0:
 
 contador = 0
 nota = 0
-menor_nota = nota
+menor_nota = 10
 while contador < n:
     nota = int(input('Digite a nota: '))
     if nota < menor_nota:
