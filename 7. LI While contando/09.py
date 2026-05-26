@@ -1,7 +1,10 @@
-n1 = int(input('Digite um número inteiro: '))
-n2 = int(input('Digite um número inteiro: '))
-n3 = int(input('Digite um número inteiro: '))
-n4 = int(input('Digite um número inteiro: '))
-n5 = int(input('Digite um número inteiro: '))
+n = 0
+soma = 0
+contador = 1
 
-print(n1 + n2 + n3 + n4 + n5)
+while contador <= 5:
+    n = int(input('Digite o valor: '))
+    contador += 1
+    soma = soma + n
+
+print(soma)
