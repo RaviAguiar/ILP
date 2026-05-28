@@ -1,6 +1,7 @@
 a = 0
 b = 0
 primo = 2
+primo_final = 0
 eh_primo = 0
 divisores_do_primo = 0
 testador_divisao_inteira_a = 0
@@ -28,16 +29,24 @@ else:
             else: 
                 eh_primo = False #senão não é primo e repete o processo até achar um primo
             
-        if isinstance(a / primo, int):
+        if isinstance(a / primo, int)
             testador_divisao_inteira_a = True
         else:
             testador_divisao_inteira_a = False
 
         if isinstance(b / primo, int):
             testador_divisao_inteira_b = True
-        else: testador_divisao_inteira_b =  False
+        else:
+             testador_divisao_inteira_b =  False
 
-        
+        if testador_divisao_inteira_a == True:
+            a = a / primo
+        if testador_divisao_inteira_b == True:
+            a = a / primo
+        if testador_divisao_inteira_a == True and testador_divisao_inteira_b == True:
+            primo_final = primo_final * primo
 
-        primo += 1 
-        
+        eh_primo = False
+        primo +=
+
+        676767676767676767676767676767676767676767
