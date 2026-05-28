@@ -1,6 +1,6 @@
 n = 0
 while n < 1:
-    n = int(input('Digite o limite (inteiro e positivo): '))
+    n = int(input('Digite um número (inteiro e positivo): '))
 
 testador = 0
 for i in range(1, (n + 1)):
