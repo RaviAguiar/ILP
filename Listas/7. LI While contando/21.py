@@ -12,7 +12,3 @@ while contador < n:
     contador += 1
 
 print(maior_nota)
-# contador = 0
-# while contador < ?:
-#  exec
-#  contador = contador + 1
