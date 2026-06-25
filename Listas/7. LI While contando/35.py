@@ -1,19 +1,21 @@
 # 0 1 1 2 3 5 8 13 21 34
-proximo = 0
-anterior = 1
-n = 0
+frente = 0
+meio = 1
+anterior = 0
+n = int(input('Digite a quantidade de números da sequência de Fibonacci: '))
 while n <= 0:
-    n = int(input('Digite o número da sequência Fibonacci que deseja: '))
+    print('Digite um número válido.')
+    n = int(input('Digite a quantidade de números da sequência de Fibonacci: '))
 
 if n == 1:
     print(0)
 elif n == 2:
-    print(1)
-
+    print('0 1')
 else:
-    print(0)
-    print(1)
-    for i in range(n):
-        proximo = anterior + anterior - 1
-        print(proximo)
-        anterior = proximo
+    print('0 1', end=" ")
+    for i in range(3, n + 1):
+        frente = anterior + meio
+        print(f'{frente}', end=" ")
+        anterior = meio
+        meio = frente
+        frente = 0
