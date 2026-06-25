@@ -1,12 +1,12 @@
 n = int(input('Digite a quantidade de pares: '))
 while n <= 0:
-    print('\nValor inválido')
-    n = int(input('Digite a quantidade de pares: '))
+    n = int(input('Digite um número válido: '))
 
-for i in range(n):
-    a = int(input('Digite o valor do primeiro número: '))
-    b = int(input('Digite o valor do segundo número: '))
-    print(f'Soma: {a + b}')
-    print(f'Diferença: {a - b}')
-    if a == b:
-        print(f'Os números digitados são iguais')
+for i in range(1, n + 1):
+    n1 = int(input(f'Digite o primeiro número do {i} par: '))
+    n2 = int(input(f'Digite o segundo número do {i} par: '))
+    if n1 == n2:
+        print(f'Os dois números são iguais')
+    else:
+        print(f'O maior número do {i} par é: {max(n1, n2)}')
+        print(f'O menor número do {i} par é: {min(n1, n2)}')
